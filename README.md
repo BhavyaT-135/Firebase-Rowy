@@ -1,6 +1,3 @@
-## Rowy
-Airtable-like CMS for Firestore with a low-code platform for Firebase and Google Cloud.
-
 # Firebase-Rowy Application
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
