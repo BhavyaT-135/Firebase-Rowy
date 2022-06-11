@@ -1,9 +1,6 @@
 ## Rowy
 Airtable-like CMS for Firestore with a low-code platform for Firebase and Google Cloud.
 
-## Firebase 
-Firebase is a platform developed by Google for creating mobile and web applications. It was originally an independent company founded in 2011.
-
 # Firebase-Rowy Application
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
