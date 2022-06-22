@@ -35,24 +35,28 @@ function App() {
   
   return (
     <div className="App">
-      <input className="form-control" placeholder='Name...' style={{width: "200px", display: "inline-flex", marginLeft: "10px", marginRight: "10px"}} onChange={(event) => {
-        setNewName(event.target.value);
-      }}/>
-      <input className="form-control" type='number' style={{width: "200px", display: "inline-flex", marginLeft: "10px", marginRight: "10px"}} placeholder='Age...' onChange={(event) => {
-        setNewAge(event.target.value);
-      }}/>
-      <button className="btn btn-dark" onClick={createUser}>Create User!</button>
-      {users.map((user) => {
-        return (
-          <div key={user.id} className="users">
-            <h3>Name : {user.name}</h3>
-            <h3>Age : {user.age}</h3>
-            <button className="btn btn-dark" onClick={() => { updateUser(user.id, user.age) }}> Increase Age! </button>
-            <button className="btn btn-dark" onClick={() => {deleteUser(user.id)}}>Delete User!</button>
-          </div>
-        )
-      })}
-    </div>
+      <div className="form">
+        <input className="form-control" placeholder='Name...' style={{width: "200px", display: "inline-flex", marginLeft: "10px", marginRight: "10px"}} onChange={(event) => {
+          setNewName(event.target.value);
+        }}/>
+        <input className="form-control" type='number' style={{width: "200px", display: "inline-flex", marginLeft: "10px", marginRight: "10px"}} placeholder='Age...' onChange={(event) => {
+          setNewAge(event.target.value);
+        }}/>
+        <button className="btn btn-dark" onClick={createUser}>Create User!</button>
+      </div>
+        {users.map((user) => {
+          return (
+            <div key={user.id} className="users"> 
+              <div className="name-age">
+                <h3>Name : {user.name}</h3>
+                <h3>Age : {user.age}</h3>
+                </div>
+              <button className="btn btn-dark" onClick={() => { updateUser(user.id, user.age) }}> Increase Age! </button>
+              <button className="btn btn-dark" onClick={() => {deleteUser(user.id)}}>Delete User!</button>
+              </div>
+          )
+        })}
+      </div>
   );
 }
 

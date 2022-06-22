@@ -2,7 +2,17 @@
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  align-items: center;
+  background-color: rgb(178, 233, 178);
+}
+
+.form {
+  border-radius: 20px;
+  border: #d9a9c3 solid 10px;
+  background-color: #efcbdf;
+  max-width: 700px;   
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
 }
 
 .btn.btn-dark {
@@ -11,7 +21,15 @@
 }
 
 .users {
-  margin-top: 20px;
+  border-radius: 20px;
+  border: #99c4b5 solid 10px;
+  background-color: #CBEFE3;
+  max-width: 500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 20px auto;
+}
+
+.name-age {
   margin-bottom: 20px;
-  background-color: aqua;
 }
