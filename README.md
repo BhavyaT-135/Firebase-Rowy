@@ -1,6 +1,9 @@
 # Firebase-Rowy Application
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Rowy
+Rowy is an Airtable-like CMS for Firestore with a low-code platform for Firebase and Google Cloud.
+
 ## Scripts Available
 
 In the project directory, you can run the following command:
